@@ -1,0 +1,39 @@
+.featured-jobs {
+    padding: 40px 20px;
+  }
+  
+  .featured-jobs h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .job-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .job-card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+  }
+  
+  .job-card button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .job-card button:hover {
+    background: #0056b3;
+  }
+  
